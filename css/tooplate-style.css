@@ -84,8 +84,12 @@ h3 {
 }
 
 h3,
-b, strong {
+b {
   font-weight: bold;
+}
+
+strong {
+    font-weight: 500;
 }
 
 .custom-btn {
