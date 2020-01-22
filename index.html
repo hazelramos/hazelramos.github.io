@@ -106,16 +106,22 @@
 
     <!-- PROJECTS -->
     <section class="project py-5" id="project">
+        
         <div class="container">
+            
                 
                 <div class="row">
                   <div class="col-lg-11 text-center mx-auto col-12">
 
                       <div class="col-lg-8 mx-auto">
-                        <h2>Recent Projects</h2>
+                        <h2>Recent Projects</h2><br>
+                          <button class="btn col-lg-5 mx-auto custom-btn custom-btn-bg custom-btn-link" onclick="showWebMobile()" id="xBtn">Web/Mobile Applications</button>
+                          <button class="btn col-lg-5 mx-auto custom-btn" onclick="showGraphic()" id="yBtn">Other Creative Materials</button>
+                          <br>
                       </div>
-
-                      <div class="owl-carousel owl-theme">
+                      
+                      <!--Web/Mobile-->
+                      <div class="owl-carousel owl-theme" id="webMobile" style="display: block">
                         <div class="item">
                           <div class="project-info">
                             <button type="button" class="btn" data-toggle="modal" data-target="#SIMPLIFIED" style="color: transparent" title="Click to learn more">
@@ -166,6 +172,71 @@
                           </div>
                         </div>
                       </div>
+                      
+                      <!--Graphic Design-->
+                      <div class="owl-carousel owl-theme" id="graphic" style="display: none">
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/printing.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/footpads.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/brochure.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/infographic.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/photoshoot.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <a href="https://drive.google.com/file/d/0B6nk9ZuDYnu9RDlDa1R0X1NGemM/view?usp=sharing" target="_blank">
+                              <img src="images/project/graphic/cmifvid.png" class="img-fluid" alt="project image"></a>
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <a href="https://drive.google.com/open?id=15R3AKDv0DhTiwvxTCsyDrfUny_cooZgt" target="_blank"><img src="images/project/graphic/csb.png" class="img-fluid" alt="project image"></a>
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/canva.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/ID.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                          
+                        <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/graphic/stickers.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                      </div>
 
                   </div>
                 </div>
@@ -189,9 +260,10 @@
                 <div class="col-lg-3 col-3 text-center"><i class="devicon-mysql-plain colored" style="font-size: 60px"></i><br>MySQL</div>
                 <div class="col-lg-3 col-3 text-center"><i class="devicon-photoshop-plain colored" style="font-size: 60px"></i><br>Photoshop</div>
                 <br><br><br><br><br><br><br>
-                <div class="col-lg-4 col-4 text-center"><img src="images/logo/invision.jpg" style="width: 100px"></div>
-                <div class="col-lg-4 col-4 text-center"><img src="images/logo/figma.png" style="width: 100px"></div>
-                <div class="col-lg-4 col-4 text-center"><img src="images/logo/lunacy.png" style="width: 120px"></div>
+                <div class="col-lg-3 col-3 text-center"><a href="https://www.canva.com/" target="_blank"><img src="images/logo/canva.png" style="width: 60px"></a></div>
+                <div class="col-lg-3 col-3 text-center"><a href="https://www.invisionapp.com/" target="_blank"><img src="images/logo/invision.jpg" style="width: 80px; margin-top: 10px"></a></div>
+                <div class="col-lg-3 col-3 text-center"><a href="https://www.figma.com/prototyping/" target="_blank"><img src="images/logo/figma.png" style="width: 80px; margin-top: 5px"></a></div>
+                <div class="col-lg-3 col-3 text-center"><a href="https://icons8.com/lunacy" target="_blank"><img src="images/logo/lunacy.png" style="width: 105px;  margin-top: 7px"></a></div>
                 
                 <div class="col-lg-6 col-12" style="margin-top: 100px">
                   <h2 class="mb-4">Experience</h2>
@@ -426,9 +498,9 @@
           <div class="container">
                <div class="row">
 
-                    <div class="col-lg-12 col-12">                                
+                    <div class="col-lg-12 col-12">
+                        <p class="copyright-text text-center"><a href="#about" class="nav-link" style="color: gray">Back to Top</a></p>   
                         <p class="copyright-text text-center">Copyright &copy; 2019 Hazel Ramos</p>
-                        <p class="copyright-text text-center"><a href="#about" class="nav-link" style="color: gray">Back to Top</a></p>
                         <p class="copyright-text text-center">
                         <a href="#"><img src="https://hitwebcounter.com/counter/counter.php?page=7182689&style=0007&nbdigits=5&type=page&initCount=207" title="Total Visits" alt="Total Visits" border="0"></a>  
                         </p>
@@ -437,6 +509,40 @@
                </div>
           </div>
      </footer>
+      
+      <script>
+      function showWebMobile() {
+          var x = document.getElementById("webMobile");
+          var xBtn = document.getElementById("xBtn");
+          var y = document.getElementById("graphic");
+          var yBtn = document.getElementById("yBtn");
+          
+          if (x.style.display === "none") { 
+            x.style.display = "block";
+            y.style.display = "none";
+            xBtn.classList.add("custom-btn-bg");
+            xBtn.classList.add("custom-btn-link");
+            yBtn.classList.remove("custom-btn-bg");
+            yBtn.classList.remove("custom-btn-link");
+          } 
+        }
+          
+        function showGraphic() {
+          var y = document.getElementById("graphic");
+          var yBtn = document.getElementById("yBtn");
+          var x = document.getElementById("webMobile");
+          var xBtn = document.getElementById("xBtn");
+          
+          if (y.style.display === "none") {
+            y.style.display = "block";
+            x.style.display = "none";
+            yBtn.classList.add("custom-btn-bg");
+            yBtn.classList.add("custom-btn-link");
+            xBtn.classList.remove("custom-btn-bg");
+            xBtn.classList.remove("custom-btn-link");
+          }
+        }
+      </script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
